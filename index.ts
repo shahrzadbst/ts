@@ -1,1 +1,1 @@
-console.log("Shahrzad is the best")
+let age: number = 20;

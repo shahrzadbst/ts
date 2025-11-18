@@ -1,1 +1,1 @@
-console.log("Shahrzad is the best");
+var age = 20;
