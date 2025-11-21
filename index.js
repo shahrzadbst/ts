@@ -1,7 +1,6 @@
-var employee = {
-    id: 1,
-    name: "Shahrzad",
-    retire: function (date) {
-        console.log(date);
-    },
-};
+function kgToLbs(weight) {
+    if (typeof weight === 'number')
+        return weight * 2.2;
+    else
+        return parseInt(weight);
+}

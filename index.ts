@@ -1,13 +1,7 @@
-type Employee ={
-  readonly id: number;
-  name: string;
-  retire: (date: Date) => void;
-}
+function kgToLbs(weight:number|string){
+    if (typeof weight === 'number')
+        return weight*2.2;
+    else
+        return parseInt(weight)
 
-let employee: Employee = {
-  id: 1,
-  name: "Shahrzad",
-  retire: (date: Date) => {
-    console.log(date);
-  },
-};
+}
